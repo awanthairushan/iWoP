@@ -21,13 +21,12 @@ else{
     <link rel="stylesheet" href="../Repeating-pages/topnav/topnav.css">
     <link rel="stylesheet" href="Login.css">
 
-    <?php
-        include '../Repeating-pages/topnav/topnav1.php'
-    ?>
-
 </head>
 
 <body>
+<?php include '../Repeating-pages/topnav/topnav1.php';?>
+      <style> <?php include '../Repeating-pages/topnav/topnav1.css'; ?>  </style>
+      <br>
     <div class="content">
         <div class="box">
             <div class="container">

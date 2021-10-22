@@ -1,145 +1,126 @@
-.box1{
+
+/*------------------------heading1 - Manager-------------------------------*/
+.heading1{
+    position: relative;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+
+/*----------------------Add New Manager Button-------------------------*/
+.button1, .button2, .button3, .button4, .button5{
+    float: right;
+    padding: 18px 25px;
+    background-color: #151965;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    color: #fff !important;
+    text-decoration: none;
+    margin-right: 5%;
+    margin-top: 0%;
+}
+
+/*--------------------------View Profile button----------------------*/
+.button2{
+    padding: 15px 25px;
+    background-color: #E95B5B;
+    margin-top: 12%;
+}
+
+/*-------------------------------Remove button -----------------------------------*/
+.button3{
+    padding: 15px 38px;
+    background-color: #2EAB2B;
+    margin-top: 22%;
+    margin-right: -14%;
+}
+
+/*----------Add button--------------*/
+.button4{
+    float:left;
+    margin-top:0%;
+    margin-left:58%;
+    padding: 15px 45px;
+    background-color: #E95B5B;
+}
+
+/*------------Cancel button-------------------*/
+.button5{
+    float:left;
+    margin-top:-3.3%;
+    margin-left:70%;
+    padding: 15px 35px;
+    background-color: #151965;
+}
+/*--------------------Outer box Manager ------------------------------*/
+.box{
+    position: relative;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    border: darkgrey;
+    border-style: solid;
+    width:65%;
+    height: 55%; 
+}
+
+/*------------------------------Profile image---------------------------*/
+.profimg{
     float: left;
-    width: 20%;
-    height: 70%;
-    height: 700px;
-    margin-left: 3%;
-    margin-top: 90px;
-    align-items: center;
-
-   
+    margin-top:7%;
+    margin-left: 20%;
 }
-
-
-
-/*---------------------Right-Outer-box-worker profile----------------------------------------*/
-.box2{
-    float:right;
-    width: 70%;
-    margin-right:3%;
-    /*border: 1px solid red;*/
-    height: 700px;
-    margin-top: 90px;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-   height: 70%;
-   
-    margin-left: 3%;
-    
-    align-items: center;
-
-}
-
-/*form*/
-.mainDiv {
-    display: flex;
-    min-height: 100%;
-    align-items: center;
-    justify-content: center;
-    background: #fff;
-    font-family: 'Popins', sans-serif;
-    box-shadow: 0px 0 2px 0 rgba(0,0,0,0.25);
-}
-.cardStyle {
-    width: 900px;
-    border-color: white;
-    background: #fff;
-    padding: 36px 0;
-    border-radius: 4px;
-    margin: 30px 0;
-    /**box-shadow: 0px 0 2px 0 rgba(0,0,0,0.25);*/
-}
+ 
+/*Profile image in Profile page*/
 .floatRight{
-    max-height: 100px;
-    margin: auto;
-    display: flex;
-
-}
-.camera{
-    margin-left: 450px;
-    margin-top: -5px;
-
-}
-.formTitle{
-    font-weight: 600;
-    margin-top: 20px;
-    color: #2F2D3B;
-    text-align: center;
-}
-.inputLabel {
-    font-size: 28px;
-    color: #555;
-    margin-bottom: 6px;
-    margin-top: 24px;
-    font-weight: bold;
-}
-.inputDiv {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-}
-.inputDiv input {
-    height: 40px;
-    font-size: 16px;
-    border-radius: 4px;
-   height: 40px;
-    border: solid 1px bold;
-    padding: 0 11px;
-}
-.inputDiv input[type=file]{
-  border: solid 1px bold;
-}
-input:disabled {
-    cursor: not-allowed;
-    border: solid 1px #eee;
+  max-height: 120px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 50%;
 }
 
-
-
-.update{
-    margin-left: 200px;
-    margin-top: 50px;
-    background-color: rgba(46, 171, 43, 1);
-    color: white;
-   cursor: pointer;
-    border: none;
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-}
-.update:hover{
-  background-color: #00b894;
-}
-.delete{
-    margin-left: 100px;
-    margin-top: 50px;
-    background-color: rgba(246, 58, 16, 1);
-    color: white;
-    cursor: pointer;
-    border: none;
-    padding: 20px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-}
-.delete:hover{
-  background-color:#ff5e57 ;
+/*------------------------------------------form-----------------------------------------------*
+/*Space between two input fields*/
+.info .group{
+	margin-bottom:2%;
+    margin-left: 45%;
 }
 
-.chooseimagefile input[type=file]{
-  margin-left: 500px;
-  
+/*input data*/
+.info .group .label,
+.info .group .input{
+	
+	color:black; /*change color of input data*/
+	display:block;
 }
-input[type=file]{
-  font-size: 20px;
+
+/*input field box*/
+.info .group .input{
+	border:none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	padding:15px 15px;
+    background:white;
+    width:80%;
 }
+
+/*-----------------names--------------------------------*/
+.field{
+    float:left;
+    margin-left: -25%;
+    margin-top: 2%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+}
+
 /*-----------------------------------------------------------Side bar----------------------------------------------------------------------------*/
 
-/* Google Fonts Import Link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -150,9 +131,9 @@ input[type=file]{
   position: fixed;
   margin-top: 2%;
   left: 0;
-  height: 70%;
+  height: 50%;
   width: 260px;
-  background: #ffffff;
+  background: gainsboro;
   z-index: 100;
   transition: all 0.5s ease;
 }
@@ -352,12 +333,11 @@ input[type=file]{
 
 /*----------------home button------------*/
 .home-section{
-  position: relative;
+  position: fixed;
   background: #f9fafc;
-  /*height: 100vh;*/
-  left: 260px;
+  margin-top:-2%;
+  left: 0px;
   width: 0px;
-  /*width: calc(100% - 260px);*/
   transition: all 0.5s ease;
 }
 
@@ -390,5 +370,3 @@ input[type=file]{
     display: none;
   }
 }
-
-

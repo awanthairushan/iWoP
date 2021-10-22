@@ -1,6 +1,6 @@
 <?php
 
-    $db = mysqli_connect("localhost", "root", "", "test1");
+    $db = mysqli_connect("localhost", "root", "", "iwop");
 
     if (mysqli_connect_errno()){
         echo "Failed to connect to DB!"

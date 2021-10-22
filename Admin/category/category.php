@@ -5,15 +5,15 @@
     <title>Title</title>
   <link rel="stylesheet" href="category.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<?php
-        include '../../Repeating-pages/topnav/topnav8-admin.php'
-    ?>
-<link rel="stylesheet" href="../../Repeating-pages/topnav/topnav.css">
 
   
 </head>
 <body>
-
+<?php include '../../repeatable_contents/admin_navbar/topnav.php';?>
+      <style> <?php include '../../repeatable_contents/admin_navbar/topnav.css'; ?>  </style>
+      <br>
+      <div class ="heading1" >  </div>   
+      <br>
 <div>
   <div class="vertical-menu">
     <div class="box1">
